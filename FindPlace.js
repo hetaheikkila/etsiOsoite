@@ -6,7 +6,7 @@ export default function FindPlace() {
 const [address, setAddress] = useState("");
 
 useEffect( () => {
-    fetch('https://geocode.maps.co/search?q=${address}&api_key=66f278ac4cf0b259524421pti80c1b0')
+    fetch('https://geocode.maps.co/search?q=${address}&api_key=')
 })
 
 return(
